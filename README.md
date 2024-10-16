@@ -1,20 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-# Ruby version & Rails Version
+### Ruby version & Rails Version
   - Ruby version: 3.0.4
   - Rails version: 6.1.7
 
-# System dependencies
+### System dependencies
   - MySql
 
-# Database creation
+### Database creation
  - rails db:create
  - rails db:migrate
 
-# How to run the test suite
+### How to run the test suite
  - bundle exec rspec
    
  - covered all the Rspec coverage
@@ -330,5 +327,8 @@ For paginated responses (e.g., the `index` endpoint), the following metadata wil
   }
 }
 ```
+# Note
+
+To save time, I implemented a hardcoded solution for the tax slab configuration instead of applying dynamic logic.
 
 ---
